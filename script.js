@@ -12,7 +12,8 @@ hamburger.addEventListener("click", () => {
 const isDarkmode =  localStorage.getItem("darkMode") === "enabled";
 
 if (isDarkmode) {
-    document.documentElement.setAttribute("data-theme", "dark")
+    document.documentElement.setAttribute("data-theme", "dark");
+    darkmode.textContent = "Light";
 }
 
 darkmode.addEventListener("click", () => {
@@ -21,8 +22,10 @@ darkmode.addEventListener("click", () => {
   if (currentTheme === "dark") {
     document.documentElement.removeAttribute("data-theme");
     localStorage.setItem("darkMode", "disabled");
+    darkmode.textContent = "Dark";
   } else {
-    document.documentElement.setAttribute("data-theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark"); 
     localStorage.setItem("darkMode", "enabled");
+    darkmode.textContent = "Light";
   }
 })

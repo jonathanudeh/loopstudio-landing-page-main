@@ -41,15 +41,24 @@ body {
   color: var(--text-color);
   font-family: "Josefin Sans", serif;
   transition: background-color 0.3s ease, color 0.3s ease;
+  transition: all .7s ease-in-out;
 }
+
 body.open {
   overflow: hidden;
 }
 
 #darkmode {
   position: fixed;
-  top: 50%;
-  right: 0;
+  top: 90%;
+  right: 1%;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  
 }
 
 header {
@@ -310,6 +319,12 @@ footer .socials img:hover {
 }
 
 @media (min-width: 800px) {
+
+  #darkmode {
+    top: 80%;
+    right: 4%;
+  }
+
   header {
     display: flex;
     flex-direction: row;
@@ -569,4 +584,4 @@ footer .socials img:hover {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+
