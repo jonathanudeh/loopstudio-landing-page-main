@@ -427,6 +427,7 @@ footer .socials img:hover {
     background-color: var(--White);
     padding: 70px;
     justify-self: start;
+    color: black;
   }
   main .interactive-section .interactive-description .description-header {
     font-size: 3.5rem;
