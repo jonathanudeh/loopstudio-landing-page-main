@@ -381,7 +381,7 @@ footer .socials img:hover {
     justify-content: center;
   }
   main .hero-section {
-    background-image: url(/images/desktop/image-hero.jpg);
+    background-image: url(images/desktop/image-hero.jpg);
     background-repeat: no-repeat;
     justify-content: start;
     margin-bottom: 100px;
