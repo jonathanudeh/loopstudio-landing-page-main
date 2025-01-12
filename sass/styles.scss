@@ -5,7 +5,7 @@
     --Black: hsl(0, 0%, 0%);
     --Dark-Gray: hsl(0, 0%, 55%);
     --Very-Dark-Gray: hsl(0, 0%, 41%);
-    --overlay: rgb(100, 100, 100, .6);
+    --overlay: rgba(255, 255, 255, .6);
     --Light-Gray: hsl(0, 0%, 90%);
 
     --Background-color: #ffffff;
@@ -18,7 +18,7 @@
     --Black: hsl(0, 0%, 0%);
     --Dark-Gray: hsl(0, 0%, 60%);
     --Very-Dark-Gray: hsl(0, 0%, 30%);
-    --overlay: rgb(0, 0, 0, .6);
+    --overlay: rgba(255, 255, 255, .6);
     --Background-color: #121212;  // Very dark background for dark mode
     --op-background-color: #ffffff;
     --text-color: #ffffff;  // Light gray background to avoid pure black

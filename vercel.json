@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "sass/**/*.scss",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "css/**/*",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/index.html" }
+    ]
+}
+  
