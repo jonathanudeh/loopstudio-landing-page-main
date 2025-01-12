@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "sass sass/styles.scss:css/styles.css"
+    "build": "sass sass sass:public/css"
   },
   "devDependencies": {
     "sass": "^1.83.1"
