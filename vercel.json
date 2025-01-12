@@ -1,23 +1,7 @@
 {
-  "builds": [
-    {
-      "src": "sass/**/*.scss",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "scripts": {
-      "build": "sass sass:css"
-    }
-  }
+  ]
 }
+
+
